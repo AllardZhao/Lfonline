@@ -44,7 +44,9 @@ INSTALLED_APPS = [
     'users',
     'courses',
     'organization',
-    'operation'
+    'operation',
+    'xadmin',
+    'crispy_forms'
 ]
 # 重载setting方法
 AUTH_USER_MODEL = "users.UserProfile"
@@ -118,15 +120,15 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/1.9/topics/i18n/
 
-LANGUAGE_CODE = 'zh-hans'
+LANGUAGE_CODE = 'zh-hans'  # 显示为中文
 
-TIME_ZONE = 'Asia/shanghai'
+TIME_ZONE = 'Asia/shanghai'   # 时区为上海
 
 USE_I18N = True
 
 USE_L10N = True
 
-USE_TZ = False
+USE_TZ = False   # 使用本地时间，所以将国际时间改为Fasle
 
 
 # Static files (CSS, JavaScript, Images)
