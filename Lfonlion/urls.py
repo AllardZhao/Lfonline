@@ -1,3 +1,4 @@
+# _*_ coding:utf-8 _*_
 """Lfonlion URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -16,8 +17,10 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
+from django.views.generic import TemplateView    # 专门用于处理静态文件
 import xadmin
 
 urlpatterns = [
     url(r'^xadmin/', xadmin.site.urls),
+    url('^$', TemplateView.as_view(template_name="index.html"), name="index")
 ]

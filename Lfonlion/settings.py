@@ -19,6 +19,7 @@ import sys
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 sys.path.insert(0, os.path.join(BASE_DIR, 'apps'))
+sys.path.insert(0, os.path.join(BASE_DIR, 'extra_apps'))
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.9/howto/deployment/checklist/
@@ -135,3 +136,8 @@ USE_TZ = False   # 使用本地时间，所以将国际时间改为Fasle
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
 STATIC_URL = '/static/'
+# 设置static文件存放路径的地址配置
+STATICFILES_DIRS = [
+ os.path.join(BASE_DIR, "static")
+]
+
