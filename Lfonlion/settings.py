@@ -17,7 +17,7 @@ import sys
 # 将apps目录添加到搜索路径之下
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+# STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 sys.path.insert(0, os.path.join(BASE_DIR, 'apps'))
 sys.path.insert(0, os.path.join(BASE_DIR, 'extra_apps'))
 
@@ -32,14 +32,17 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# 自定义AUTH方法
+AUTHENTICATION_BACKENDS = (
+    'users.views.CustomBackend',
+)
 
 # Application definition，app应用注册
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
-    'django.contrib.sessions',
+    'django.contrib.sessions',   # 如果注释掉我们的自动登录就会失效
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'users',
@@ -47,7 +50,8 @@ INSTALLED_APPS = [
     'organization',
     'operation',
     'xadmin',
-    'crispy_forms'
+    'crispy_forms',
+    'captcha'
 ]
 # 重载setting方法
 AUTH_USER_MODEL = "users.UserProfile"
@@ -68,8 +72,7 @@ ROOT_URLCONF = 'Lfonlion.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')]
-        ,
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -136,8 +139,10 @@ USE_TZ = False   # 使用本地时间，所以将国际时间改为Fasle
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'collect_static')
 # 设置static文件存放路径的地址配置
-STATICFILES_DIRS = [
- os.path.join(BASE_DIR, "static")
-]
+STATICFILES_DIRS = (
+  os.path.join(BASE_DIR, "static"),
+)
+
 
