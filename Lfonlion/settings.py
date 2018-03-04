@@ -146,3 +146,10 @@ STATICFILES_DIRS = (
 )
 
 
+# 邮箱验证设置
+EMAIL_HOST = "smtp.sina.com"   # 新浪邮箱,SMTP服务器
+EMAIL_PORT = 25
+EMAIL_HOST_USER = "projectsedu@sina.com"
+EMAIL_HOST_POSSWORD = "admin123"
+EMAIL_USE_TLS = False
+EMAIL_FORM = "allardzhao@sina.com"

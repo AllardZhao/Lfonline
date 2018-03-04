@@ -20,12 +20,13 @@ from django.contrib import admin
 from django.views.generic import TemplateView    # 专门用于处理静态文件
 import xadmin
 
-from users.views import LoginView, RegisterView
+from users.views import LoginView, RegisterView,ActiveUserView
 
 urlpatterns = [
-    url(r'^xadmin/', xadmin.site.urls),
+    url(r'^xadmin/', xadmin.site.urls),                                                       # 后台管理url
     url('^$', TemplateView.as_view(template_name="index.html"), name="index"),
-    url('^login/$', LoginView.as_view(), name="login"),
-    url('^register/$', RegisterView.as_view(), name="register"),
-    url(r'^captcha/', include('captcha.urls')),
+    url('^login/$', LoginView.as_view(), name="login"),                                       # 登录url
+    url('^register/$', RegisterView.as_view(), name="register"),                              # 注册url
+    url(r'^captcha/', include('captcha.urls')),                                               # 生成验证码
+    url(r'^active/(?P<active_code>.*)/$', ActiveUserView.as_view(), name="user_active")       # 邮箱激活
 ]
