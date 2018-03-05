@@ -25,7 +25,10 @@ class CustomBackend(ModelBackend):
             return None
 
 
-class ActiveUserView(View):    # 通过邮箱激活账号
+class ActiveUserView(View):
+    """
+    激活账号字段为is_active至为Trues
+    """
     def get(self, request, active_code):
         all_records = EmailVerifyRecord.objects.filter(code=active_code)
         if all_records:
@@ -39,7 +42,7 @@ class ActiveUserView(View):    # 通过邮箱激活账号
 
 class RegisterView(View):
     """
-    注册页面配置
+    注册页面逻辑代码
     """
     def get(self, request):
         register_form = RegisterForm()
@@ -48,24 +51,23 @@ class RegisterView(View):
     def post(self, request):   # 注册，user数据保存
         register_form = RegisterForm(request.POST)
         if register_form.is_valid():
-            user_name = request.POST("email", "")
-            pass_word = request.POST("password", "")
+            user_name = request.POST.get("email", "")
+            pass_word = request.POST.get("password", "")
             user_profile = UserProfile()
             user_profile.username = user_name
             user_profile.email = user_name
             user_profile.is_active = False  # 表明用户还没激活，因为默认是1，所以指定为False
             user_profile.password = make_password(pass_word)
             user_profile.save()
-
             send_register_email(user_name, "register")
             return render(request, "login.html")
         else:
-            return render(request, "register.html", {"register_form":register_form})
+            return render(request, "register.html", {"register_form": register_form})
 
 
 class LoginView(View):
     """
-    登录页面的配置
+    登录页面的逻辑代码
     """
     def get(self, request):
         return render(request, "login.html", {})
