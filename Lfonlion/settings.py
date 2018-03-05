@@ -150,6 +150,6 @@ STATICFILES_DIRS = (
 EMAIL_HOST = "smtp.sina.com"   # 新浪邮箱,SMTP服务器
 EMAIL_PORT = 25
 EMAIL_HOST_USER = "allardzhao@sina.com"
-EMAIL_HOST_PASSWORD = "zhao19940.0"
+EMAIL_HOST_PASSWORD = "admin123"    # 此处错误 ，需要改成自己新浪邮箱密码
 EMAIL_USE_TLS = False
 EMAIL_FORM = "allardzhao@sina.com"
