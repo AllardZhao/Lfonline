@@ -19,8 +19,11 @@ from django.conf.urls import url, include
 from django.contrib import admin
 from django.views.generic import TemplateView    # 专门用于处理静态文件
 import xadmin
+from django.views.static import serve         # 用于处理静态文件
 
-from users.views import LoginView, RegisterView,ActiveUserView
+from users.views import LoginView, RegisterView, ActiveUserView, ForgetPwdView, ResetView, ModifyPwdView
+from organization.views import OrgView
+from Lfonlion.settings import MEDIA_ROOT
 
 urlpatterns = [
     url(r'^xadmin/', xadmin.site.urls),                                                       # 后台管理url
@@ -28,5 +31,15 @@ urlpatterns = [
     url('^login/$', LoginView.as_view(), name="login"),                                       # 登录url
     url('^register/$', RegisterView.as_view(), name="register"),                              # 注册url
     url(r'^captcha/', include('captcha.urls')),                                               # 生成验证码
-    url(r'^active/(?P<active_code>.*)/$', ActiveUserView.as_view(), name="user_active")       # 邮箱激活
+    url(r'^active/(?P<active_code>.*)/$', ActiveUserView.as_view(), name="user_active"),      # 邮箱激活
+    url(r'^forget/$', ForgetPwdView.as_view(), name="forget_pwd"),                          # 找回密码
+    url(r'^reset/(?P<active_code>.*)/$', ResetView.as_view(), name="reset_pwd"),
+    url(r'^modify_pwd/$', ModifyPwdView.as_view(), name="modify_pwd"),
+
+    # 课程机构首页
+    url(r'^org_list/$', OrgView.as_view(), name="org_list"),
+    # 配置上传文件的访问处理函数
+    url(r'^media/(?P<path>.*)$', serve, {"document_root": MEDIA_ROOT}),
+
+
 ]

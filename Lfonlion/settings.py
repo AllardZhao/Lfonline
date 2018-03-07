@@ -51,7 +51,10 @@ INSTALLED_APPS = [
     'operation',
     'xadmin',
     'crispy_forms',
-    'captcha'
+    # 验证码使用的库
+    'captcha',
+    # 页面分页使用的库
+    'pure_pagination',
 ]
 # 重载setting方法
 AUTH_USER_MODEL = "users.UserProfile"
@@ -80,6 +83,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'django.core.context_processors.media',
             ],
         },
     },
@@ -153,3 +157,8 @@ EMAIL_HOST_USER = "allardzhao@sina.com"
 EMAIL_HOST_PASSWORD = "admin123"    # 此处错误 ，需要改成自己新浪邮箱密码
 EMAIL_USE_TLS = False
 EMAIL_FORM = "allardzhao@sina.com"
+
+# 上传文件(资源文件)的相关设置
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+

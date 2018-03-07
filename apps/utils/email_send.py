@@ -29,10 +29,17 @@ def send_register_email(email, send_type="register"):    # 邮箱激活实现
     email_title = ""
     email_allard = ""
     if send_type == "register":
-        email_title = "学友在线网激活链接"     # 邮件标题
+        email_title = "学友在线网注册激活链接"     # 邮件标题
         email_allard = "请点击下面链接激活你的账号：http://127.0.0.1:8000/active/{0}".format(code)    # 邮件正文内容
         # 向用户发送邮件
         send_status = send_mail(email_title, email_allard, EMAIL_FORM, [email])
         if send_status:
+            pass
+    elif send_type == "forget":
+        email_title = "学友在线网密码重置连接"  # 邮件标题
+        email_allard = "请点击下面链接激活你的账号：http://127.0.0.1:8000/reset/{0}".format(code)  # 邮件正文内容
+        # 向用户发送邮件
+        send_status = send_mail(email_title, email_allard, EMAIL_FORM, [email])
+        if send_status:     # 测试是否发送成功，如果send_status为True说明已发送成功
             pass
 
