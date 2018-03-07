@@ -21,13 +21,13 @@
 				<li>
 					<h2>机构类别</h2>
 					<div class="cont">
-                        <a href="?city="><span class="active2">全部</span></a>
+                        <a href="?city={{ city_id }}"><span class="{% ifequal category '' %}active2{% endifequal %}">全部</span></a>
 
-                            <a href="?ct=pxjg&city="><span class="">培训机构</span></a>
+                            <a href="?ct=jg&city={{ city_id }}"><span class="{% ifequal category 'jg' %}active2{% endifequal %}">培训机构</span></a>
 
-                            <a href="?ct=gx&city="><span class="">高校</span></a>
+                            <a href="?ct=gx&city={{ city_id }}"><span class="{% ifequal category 'gx' %}active2{% endifequal %}">高校</span></a>
 
-                            <a href="?ct=gr&city="><span class="">个人</span></a>
+                            <a href="?ct=gr&city={{ city_id }}"><span class="{% ifequal category 'gr' %}active2{% endifequal %}">个人</span></a>
 
 					</div>
 				</li>
@@ -36,11 +36,11 @@
 					<div class="more">更多</div>
 					<div class="cont">
                         {# class="{% ifequal city_id '' %}active2{% endifequal %} 标签状态设置，如果为空“全部”标绿   #}
-                        <a href="?ct="><span class="{% ifequal city_id  '' %}active2{% endifequal %}">全部</span></a>
+                        <a href="?ct={{ category }}"><span class="{% ifequal city_id  '' %}active2{% endifequal %}">全部</span></a>
                         {#   遍历出所有城市   #}
                             {% for city in all_ctiys %}
                                  {#  city_id|stringformat:"i" 该用法是django过滤器固定用法将city_id的int型转变成str类型   #}
-                                <a href="?city={{ city.id }}"><span class="{% ifequal city_id city_id|stringformat:"i" %}active2{% endifequal %}">{{ city.name }}</span></a>
+                                <a href="?city={{ city.id }}&ct={{ category }}"><span class="{% ifequal city_id city.id|stringformat:"i" %}active2{% endifequal %}">{{ city.name }}</span></a>
                             {% endfor %}
 
 					</div>
@@ -94,15 +94,14 @@
                     <div class="buy start_groupbuy jsShowPerfect2" data-id="22"><br/>联系<br/>服务</div>
                 </dl>
             {% endfor %}
-
 		</div>
          {#  自定义分页功能的现实  #}
 		 <div class="pageturn">
-
             <ul class="pagelist">
                 {% if all_orgs.has_previous %}
                     <li class="long"><a href="?{{ all_orgs.previous_page_number.querystring }}">上一页</a></li>
                 {% endif %}
+
                 {% for page in all_orgs.pages %}
                     {% if page %}
                         {% ifequal page all_orgs.number %}
