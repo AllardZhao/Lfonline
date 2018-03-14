@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
-{% block title %}公开课视频信息 - 学友在线网{% endblock %}
+{% load i18n %}
+{% block title %}{{ video.name }} - 学友在线网{% endblock %}
 {% load staticfiles %}
 {% block custom_bread %}
 <section>
@@ -8,8 +9,8 @@
             <ul>
                 <li><a href="{% url 'index' %}">首页</a>></li>
                 <li><a href="{% url 'course:course_list' %}">公开课程</a>></li>
-                <li><a href="{% url 'course:course_detail' course.id %}">课程详情</a>></li>
-                <li>章节信息</li>
+                <li><a href="{% url 'course:course_detail' course.id %}">{{ course.name }}</a>></li>
+                <li>{{ video.name }}</li>
             </ul>
         </div>
     </div>
@@ -23,36 +24,26 @@
     <link rel="stylesheet" type="text/css" href="{% static 'css/aui.css' %}" />
     <link rel="stylesheet" type="text/css" href="{% static 'css/mooc.css' %}" />
      <link rel="stylesheet" type="text/css" href="{% static 'css/muke/course/common-less.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/video-js.min.css' %}">
+      <style>
+        .video-js .vjs-big-play-button{
+            top: 50%;
+            left: 50%;
+        }
+    </style>
 {% endblock %}
 
 {% block content %}
     <div id="main">
-    <div class="course-infos">
-        <div class="w pr">
-            <div style="height: 15px" class="path">
-            </div>
-            <div class="hd">
-                <h2 class="l">{{ course.name }}</h2>
-            </div>
-            <div class="statics clearfix">
-                <div class="static-item ">
-                    <span class="meta-value"><strong>{{ course.get_degree_display }}</strong></span>
-                    <span class="meta">难度</span>
-                    <em></em>
-                </div>
-                <div class="static-item static-time">
-                    <span class="meta-value">{{ course.learn_time }}分钟</span>
-                    <span class="meta">时长</span>
-                    <em></em>
-                </div>
-                <div class="static-item">
-                    <span class="meta-value"><strong>{{ course.students }}</strong></span>
-                    <span class="meta">学习人数</span>
-                    <em></em>
-                </div>
-            </div>
-        </div>
-    </div>
+          <div style="width:1200px;height: 675px; margin:0 auto">
+            <video id="example_video_1" class="video-js vjs-default-skin" controls preload="none" width="1200"
+                  poster="http://video-js.zencoder.com/oceans-clip.png"
+                  data-setup="{}">
+                <source src="{{ video.url }}" type='video/mp4'>
+            </video>
+           </div>
+
+
     <div class="course-info-main clearfix w has-progress">
 
         <div class="info-bar clearfix">
@@ -114,9 +105,9 @@
                             <a href="/u/315464/courses?sort=publish" target="_blank">
                                 <img src='{{ MEDIA_URL }}{{ course.teacher.image }}' width='80' height='80' />
                             </a>
-                            <span class="tit">
-                              <a href="/u/315464/courses?sort=publish" target="_blank">{{ course.teacher.name }}</a>
-                            </span>
+        <span class="tit">
+          <a href="/u/315464/courses?sort=publish" target="_blank">{{ course.teacher.name }}</a>
+        </span>
                             <span class="job">{{ course.teacher.work_position }}</span>
                         </div>
                         <div class="course-info-tip">
@@ -152,12 +143,20 @@
 
                                 </ul>
                             </div>
-
+                            <div class="cp-tab-pannel js-comp-tab-pannel" data-pannel="plan">
+                                <ul class="other-list">
+                                    <li class="curr">
+                                        <a href="/course/programdetail/pid/31?src=sug" target="_blank">
+                                            <img src="http://img.mukewang.com/56551e6700018b0c09600720-240-135.jpg" alt="Java工程师">
+                                            <span class="name autowrap">Java工程师</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
 
-                </div>
-            </div>
+                </div>    </div>
         </div>
         <div class="clear"></div>
 

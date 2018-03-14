@@ -33,6 +33,7 @@ def send_register_email(email, send_type="register"):    # 邮箱激活实现
         email_allard = "请点击下面链接激活你的账号：http://127.0.0.1:8000/active/{0}".format(code)    # 邮件正文内容
         # 向用户发送邮件
         send_status = send_mail(email_title, email_allard, EMAIL_FORM, [email])
+
         if send_status:
             pass
     elif send_type == "forget":
