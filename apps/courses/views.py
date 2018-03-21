@@ -3,6 +3,7 @@ from django.shortcuts import render
 from django.views.generic.base import View
 from pure_pagination import Paginator, EmptyPage, PageNotAnInteger
 from django.http import HttpResponse
+from django.db.models import Q
 
 from .models import Course, CourseResource, Video
 from operation.models import UserFavorite, CourseComments, UserCourse
@@ -18,6 +19,15 @@ class CourseListView(View):
 
         # 根据点击数进行热门排序,取3个
         hot_courses = Course.objects.all().order_by("-click_nums")[:3]
+
+        # 课程搜索，通过AJAX进行异步操作，代码在deco-common.js中
+        search_keywords = request.GET.get('keywords', "")
+        if search_keywords:
+            # 例如name__icontains为搜索name字段,contains前面的i表示不区分大小写。
+            all_courses = all_courses.filter(
+                Q(name__icontains=search_keywords) |
+                Q(desc__icontains=search_keywords) |
+                Q(detail__icontains=search_keywords))
 
         # 课程排序
         sort = request.GET.get('sort', "")

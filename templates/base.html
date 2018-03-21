@@ -13,7 +13,8 @@
     <script src="{% static 'js/jquery.min.js' %}" type="text/javascript"></script>
     <script src="{% static 'js/jquery-migrate-1.2.1.min.js' %}" type="text/javascript"></script>
 </head>
-<body>
+<body >
+{# style="overflow:hidden"隐藏滚动条 #}
 <section class="headerwrap ">
     <header>
 		<div  class=" header">
@@ -53,14 +54,15 @@
 				<div class="nav">
 					<div class="wp">
 						<ul>
-							<li ><a href="{% url 'index' %}">首页</a></li>
-							<li >
-								<a href="{% url 'course:course_list' %}">公开课<img class="hot" src="{% static 'images/nav_hot.png' %}"></a>
-							</li>
-							<li >
-								<a href="{% url 'org:teacher_list' %}">授课教师</a>
-							</li>
-							<li class="active"><a href="{% url 'org:org_list' %}">授课机构</a></li>
+                        {# 首页url配置可以有两种，一种是直接href="/"表示根路径，一种是用url name来做{% url 'index' %} #}
+							<li {% if request.path == '/' %}class="active"{% endif %}><a href="{% url 'index' %}">首页</a></li>
+                        {# 标题栏选中状态判断，通过过滤器slice取前7位字母，判断是否是'/course'，是的时候标绿 #}
+							<li {% if request.path|slice:'7' == '/course' %}class="active"{% endif %}>
+								<a href="{% url 'course:course_list' %}">公开课<img class="hot" src="{% static 'images/nav_hot.png' %}"></a></li>
+							<li {% if request.path|slice:'12' == '/org/teacher' %}class="active"{% endif %}>
+								<a href="{% url 'org:teacher_list' %}">授课教师</a></li>
+							<li {% if request.path|slice:'9' == '/org/list' %}class="active"{% endif %}>
+                                <a href="{% url 'org:org_list' %}">授课机构</a></li>
 						</ul>
 					</div>
 				</div>

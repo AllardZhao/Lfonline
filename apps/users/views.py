@@ -5,10 +5,12 @@ from django.contrib.auth.backends import ModelBackend
 from django.db.models import Q
 from django.views.generic.base import View
 from django.contrib.auth.hashers import make_password   # 调用此函数对明文进行加密
+from django.http import HttpResponse
 
 from .models import UserProfile, EmailVerifyRecord
-from .forms import LoginForm, RegisterForm, ForgetForm, ModifyPwdForm
+from .forms import LoginForm, RegisterForm, ForgetForm, ModifyPwdForm, UploadImageForm
 from utils.email_send import send_register_email
+from utils.mixin_utils import LoginRequiredMixin
 
 
 class CustomBackend(ModelBackend):
@@ -160,4 +162,37 @@ class ModifyPwdView(View):
             email = request.POST.get("email", "")
             return render(request, "password_reset.html", {"email": email, "modify_form": modify_form})
 
+
+class UserinfoView(LoginRequiredMixin, View):
+    """
+    用户个人信息，继承LoginRequiredMixin表示登录才能访问的View
+    """
+    def get(self, request):
+        return render(request, 'usercenter-info.html', {
+
+        })
+
+
+class UploadImageView(LoginRequiredMixin, View):
+    """
+    用户修改头型
+    """
+
+    # # 方法一
+    # def post(self, request):
+    #     image_form = UploadImageForm(request.POST, request.FILES)
+    #     if image_form.is_valid():
+    #         image = image_form.cleaned_data['image']
+    #         request.user.image = image
+    #         request.user.save()
+
+    # 方法2:直接通过model_form进行保存
+    def post(self, request):
+        image_form = UploadImageForm(request.POST, request.FILES, instance=request.user)
+        if image_form.is_valid():
+            image_form.save()
+            # 返回JSON数据，在页面通过AJAX进行异步提示
+            return HttpResponse('{"status":"success"}', content_type='application/json')
+        else:
+            return HttpResponse('{"status":"fail"}', content_type='application/json')
 
