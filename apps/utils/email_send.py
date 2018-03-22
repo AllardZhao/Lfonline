@@ -20,7 +20,10 @@ def random_str(randomlength=8):     # 生成随机字符串供邮箱验证用
 
 def send_register_email(email, send_type="register"):    # 邮箱激活实现
     email_record = EmailVerifyRecord()
-    code = random_str(16)
+    if send_type == "update_email":
+        code = random_str(4)
+    else:
+        code = random_str(16)
     email_record.code = code
     email_record.email = email
     email_record.send_type = send_type
@@ -43,4 +46,10 @@ def send_register_email(email, send_type="register"):    # 邮箱激活实现
         send_status = send_mail(email_title, email_allard, EMAIL_FORM, [email])
         if send_status:     # 测试是否发送成功，如果send_status为True说明已发送成功
             pass
-
+    elif send_type == "update_email":
+        email_title = "学友在线网邮箱修改验证码"  # 邮件标题
+        email_allard = "你的邮箱验证码为：{0}".format(code)  # 邮件正文内容
+        # 向用户发送邮件
+        send_status = send_mail(email_title, email_allard, EMAIL_FORM, [email])
+        if send_status:  # 测试是否发送成功，如果send_status为True说明已发送成功
+            pass
