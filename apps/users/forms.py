@@ -36,3 +36,10 @@ class UploadImageForm(forms.ModelForm):
     class Meta:
         model = UserProfile      # 指明要转换哪一个
         fields = ['image']    # 指明要转换的字段
+
+
+class UserInfoForm(forms.ModelForm):
+
+    class Meta:
+        model = UserProfile      # 指明要转换哪一个
+        fields = ['nick_name', 'gender', 'birday', 'address', 'mobile']    # 指明要转换的字段
