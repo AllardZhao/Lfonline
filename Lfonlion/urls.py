@@ -21,14 +21,15 @@ from django.views.generic import TemplateView    # 专门用于处理静态文�
 import xadmin
 from django.views.static import serve         # 用于处理静态文件
 
-from users.views import LoginView, RegisterView, ActiveUserView, ForgetPwdView, ResetView, ModifyPwdView
-from organization.views import OrgView
-from Lfonlion.settings import MEDIA_ROOT
+from users.views import LogoutView, LoginView, RegisterView, ActiveUserView, ForgetPwdView, ResetView, ModifyPwdView
+from users.views import IndexView
+from Lfonlion.settings import MEDIA_ROOT, STATIC_ROOT
 
 urlpatterns = [
     url(r'^xadmin/', xadmin.site.urls),                                                       # 后台管理url
-    url('^$', TemplateView.as_view(template_name="index.html"), name="index"),
+    url('^$', IndexView.as_view(), name="index"),      # TemplateView.as_view(template_name="index.html")
     url('^login/$', LoginView.as_view(), name="login"),                                       # 登录url
+    url('^logout/$', LogoutView.as_view(), name="logout"),                                     # 退出登录url
     url('^register/$', RegisterView.as_view(), name="register"),                              # 注册url
     url(r'^captcha/', include('captcha.urls')),                                               # 生成验证码
     url(r'^active/(?P<active_code>.*)/$', ActiveUserView.as_view(), name="user_active"),      # 邮箱激活
@@ -44,8 +45,13 @@ urlpatterns = [
 
     # 配置上传文件的访问处理函数
     url(r'^media/(?P<path>.*)$', serve, {"document_root": MEDIA_ROOT}),
+    url(r'^static/(?P<path>.*)$', serve, {"document_root": STATIC_ROOT}),   # DRBUG=False时需要自己设置静态路径
 
     # 课程相关url设置
     url(r'^users/', include('users.urls', namespace="users")),
 
 ]
+
+# 全局404页面配置,users.views.page_not_found处理函数路径
+handler404 = 'users.views.page_not_found'   # DEBUG为True时404不起作用，因此需要在settings.py中将DEBUG改为False
+handler500 = 'users.views.page_error'

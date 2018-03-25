@@ -13,6 +13,9 @@ from utils.mixin_utils import LoginRequiredMixin     # 引入登录权限的基�
 
 
 class CourseListView(View):
+    """
+    课程列表页
+    """
     def get(self, request):
         # 因为默认排序是最新所以要按添加时间倒序排列
         all_courses = Course.objects.all().order_by("-add_time")
@@ -23,7 +26,7 @@ class CourseListView(View):
         # 课程搜索，通过AJAX进行异步操作，代码在deco-common.js中
         search_keywords = request.GET.get('keywords', "")
         if search_keywords:
-            # 例如name__icontains为搜索name字段,contains前面的i表示不区分大小写。
+            # 例如name__icontains为搜索name字段,通过这种操作就可以实现like查询，contains前面的i表示不区分大小写。
             all_courses = all_courses.filter(
                 Q(name__icontains=search_keywords) |
                 Q(desc__icontains=search_keywords) |

@@ -28,9 +28,9 @@ sys.path.insert(0, os.path.join(BASE_DIR, 'extra_apps'))
 SECRET_KEY = '$@pwm%g58zuybyu9$jpkqx9q^wtz&h8#yt2593f=qqj7#gv7x@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False   # DEBUG为True时404不起作用，在生产环境部署时必须改为False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']  # 当DEBUG = False时需要设置允许连接IP地址，我这里是允许所有客户端都可以连接
 
 # 自定义AUTH方法
 AUTHENTICATION_BACKENDS = (
@@ -161,4 +161,4 @@ EMAIL_FORM = "allardzhao@sina.com"
 # 上传文件(资源文件)的相关设置
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')     # DRBUG=False时需要自己设置静态路径

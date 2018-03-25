@@ -38,11 +38,11 @@
                             </dl>
                             <div class="btn">
                                 <a class="personcenter fl" href="{% url 'users:user_info' %}">进入个人中心</a>
-                                <a class="fr" href="/logout/">退出</a>
+                                <a class="fr" href="{% url 'logout' %}">退出</a>
                             </div>
                         </div>
                     </div>
-                        <a href="usercenter-message.html">
+                        <a href="{% url 'users:mymessage' %}">
                             <div class="msg-num"><span id="MsgNum">{{ request.user.unread_nums }}</span></div>
                         </a>
                     {% else %}
@@ -67,6 +67,7 @@
                                 <li data-value="teacher">授课老师</li>
                             </ul>
                         </div>
+                                                                        {# 搜索通过AJAX操作完成，源码在deco-common.js #}
                         <input id="search_keywords" class="fl" type="text" value="" placeholder="请输入搜索内容"/>
                         <img class="search_btn fr" id="jsSearchBtn" src="{% static 'images/search_btn.png' %}"/>
                     </div>
