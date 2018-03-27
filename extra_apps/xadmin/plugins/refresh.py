@@ -10,7 +10,7 @@ REFRESH_VAR = '_refresh'
 
 class RefreshPlugin(BaseAdminPlugin):
 
-    refresh_times = []
+    refresh_times = []   # 设置列表页定时刷新
 
     # Media
     def get_media(self, media):

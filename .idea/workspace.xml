@@ -2,32 +2,77 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7322092b-7b89-45bf-a768-02d5228eb35c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/courses/migrations/0010_course_is_banner.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/apps/organization/migrations/0006_courseorg_tag.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/courses/2018/02/425229.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/Entity/2016/11/default_middile_14_20161113173158_261.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/Entity/2016/11/default_middile_1_20161113172604_856.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/Entity/ueditor/default_middile_13_20161113185849_453.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/banner/2016/11/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/banner/2016/11/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/banner/2016/11/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/banner/2016/11/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/banner/2016/11/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/course/resource/2016/11/curl_wget.rar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/course/resource/2016/11/media.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/courses/2016/11/540e57300001d6d906000338-240-135.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/courses/2016/11/540e57300001d6d906000338-240-135_MSIqfvw.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/courses/2016/11/540e57300001d6d906000338-240-135_Z3HIQ2t.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/courses/2016/11/540e57300001d6d906000338-240-135_mvvGYHL.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/courses/2016/11/540e57300001d6d906000338-240-135_n0L8vbw.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/courses/2016/11/540e57300001d6d906000338-240-135_wH52IED.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/courses/2016/11/57035ff200014b8a06000338-240-135.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/courses/2016/11/57035ff200014b8a06000338-240-135_0nFiBSI.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/courses/2016/11/57035ff200014b8a06000338-240-135_dHfj8Nq.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/courses/2016/11/default_middile_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/courses/2016/11/mysql.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/courses/2016/12/57035ff200014b8a06000338-240-135_dHfj8Nq.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/courses/2016/12/mysql.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/courses/2016/12/python文件处理.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/courses/2016/12/python错误和异常.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/courses/2016/12/python面向对象.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/courses/ueditor/57a801860001c34b12000460_z4Vb8zl_20161210233313_629.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/courses/ueditor/57aa86a0000145c512000460_20161210234050_865.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/courses/ueditor/aobama_20161113225004_372.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/courses/ueditor/aobama_20161113225044_773.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/image/2016/11/default_middile_18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/image/2016/11/default_middile_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/image/2016/11/default_middile_2_WZ1559E.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/image/2016/11/default_middile_7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/image/2016/11/default_middile_8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/image/2016/12/default_big_14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/org/2016/11/bjdx.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/org/2016/11/imooc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/org/2016/11/imooc_Gn1sRjp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/org/2016/11/imooc_OO2ykYP.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/org/2016/11/imooc_V0TJOyb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/org/2016/11/imooc_Y2Tonsq.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/org/2016/11/imooc_klgAUn5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/org/2016/11/imooc_qEaMov1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/org/2016/11/njdx.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/org/2016/11/qhdx-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/org/2016/12/bjdx.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/org/2016/12/bjdx_bcd0m07.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/org/2016/12/bjdx_cCpdUw8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/org/2016/12/imooc_Gn1sRjp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/org/2016/12/imooc_klgAUn5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/teacher/2016/11/aobama.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/media/teacher/2016/11/aobama_CXWwMef.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/fonts/FontAwesome.otf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lfonlion/settings.py" afterPath="$PROJECT_DIR$/Lfonlion/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lfonlion/urls.py" afterPath="$PROJECT_DIR$/Lfonlion/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/courses/adminx.py" afterPath="$PROJECT_DIR$/apps/courses/adminx.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/courses/models.py" afterPath="$PROJECT_DIR$/apps/courses/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/courses/views.py" afterPath="$PROJECT_DIR$/apps/courses/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/organization/models.py" afterPath="$PROJECT_DIR$/apps/organization/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/organization/urls.py" afterPath="$PROJECT_DIR$/apps/organization/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/organization/views.py" afterPath="$PROJECT_DIR$/apps/organization/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/users/models.py" afterPath="$PROJECT_DIR$/apps/users/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/organization/adminx.py" afterPath="$PROJECT_DIR$/apps/organization/adminx.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/users/adminx.py" afterPath="$PROJECT_DIR$/apps/users/adminx.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/apps/users/views.py" afterPath="$PROJECT_DIR$/apps/users/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/forgetpwd.html" afterPath="$PROJECT_DIR$/templates/forgetpwd.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/login.html" afterPath="$PROJECT_DIR$/templates/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/org_base.html" afterPath="$PROJECT_DIR$/templates/org_base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/register.html" afterPath="$PROJECT_DIR$/templates/register.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/usercenter-base.html" afterPath="$PROJECT_DIR$/templates/usercenter-base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/usercenter-fav-course.html" afterPath="$PROJECT_DIR$/templates/usercenter-fav-course.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/usercenter-fav-org.html" afterPath="$PROJECT_DIR$/templates/usercenter-fav-org.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/usercenter-fav-teacher.html" afterPath="$PROJECT_DIR$/templates/usercenter-fav-teacher.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/usercenter-info.html" afterPath="$PROJECT_DIR$/templates/usercenter-info.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/usercenter-message.html" afterPath="$PROJECT_DIR$/templates/usercenter-message.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/usercenter-mycourse.html" afterPath="$PROJECT_DIR$/templates/usercenter-mycourse.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/xadmin/plugins/__init__.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/plugins/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/xadmin/plugins/refresh.py" afterPath="$PROJECT_DIR$/extra_apps/xadmin/plugins/refresh.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/css/font-awesome.css" afterPath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/css/font-awesome.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/css/font-awesome.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/course-detail.html" afterPath="$PROJECT_DIR$/templates/course-detail.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,14 +99,46 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Lfonlion/settings.py">
+      <file leaf-file-name="adminx.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/courses/adminx.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4">
-              <caret line="56" column="22" lean-forward="true" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+            <state relative-caret-position="276">
+              <caret line="48" column="52" lean-forward="false" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
               <folding>
-                <element signature="e#322#331#0" expanded="true" />
+                <element signature="e#76#89#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/plugins/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="excel.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/plugins/excel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="13" column="64" lean-forward="false" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+              <folding>
+                <element signature="e#77#90#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="model_list.top_toolbar.import.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/excel/model_list.top_toolbar.import.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="49" lean-forward="true" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -78,15 +155,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>../</find>
-      <find>ModifyPw</find>
-      <find>注册</find>
-      <find>jsReset</find>
-      <find>jsChangeEmailForm</find>
-      <find>jsEditUserForm</find>
-      <find>我的消息</find>
-      <find>退</find>
-      <find>i</find>
       <find>ind</find>
       <find>inde</find>
       <find>index</find>
@@ -108,6 +176,15 @@
       <find>OrgL</find>
       <find>OrgView</find>
       <find>jsSelectOption</find>
+      <find>register_form</find>
+      <find>DE</find>
+      <find>medie</find>
+      <find>、</find>
+      <find>、medi</find>
+      <find>、media</find>
+      <find>media</find>
+      <find>/media</find>
+      <find>UserAdmin</find>
     </findStrings>
     <replaceStrings>
       <replace>/static/js</replace>
@@ -125,13 +202,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/apps/organization/apps.py" />
-        <option value="$PROJECT_DIR$/apps/organization/__init__.py" />
-        <option value="$PROJECT_DIR$/apps/users/adminx.py" />
-        <option value="$PROJECT_DIR$/templates/active_fail.html" />
-        <option value="$PROJECT_DIR$/templates/send_success.html" />
-        <option value="$PROJECT_DIR$/templates/password_reset.html" />
-        <option value="$PROJECT_DIR$/apps/organization/forms.py" />
         <option value="$PROJECT_DIR$/templates/org-list.html" />
         <option value="$PROJECT_DIR$/templates/org-detail-desc.html" />
         <option value="$PROJECT_DIR$/templates/org-detail-teachers.html" />
@@ -145,7 +215,6 @@
         <option value="$PROJECT_DIR$/templates/course-play.html" />
         <option value="$PROJECT_DIR$/templates/teachers-list.html" />
         <option value="$PROJECT_DIR$/templates/teacher-detail.html" />
-        <option value="$PROJECT_DIR$/templates/course-detail.html" />
         <option value="$PROJECT_DIR$/templates/course-video.html" />
         <option value="$PROJECT_DIR$/static/js/deco-user.js" />
         <option value="$PROJECT_DIR$/apps/utils/email_send.py" />
@@ -163,19 +232,27 @@
         <option value="$PROJECT_DIR$/templates/usercenter-info.html" />
         <option value="$PROJECT_DIR$/templates/usercenter-message.html" />
         <option value="$PROJECT_DIR$/templates/usercenter-mycourse.html" />
-        <option value="$PROJECT_DIR$/apps/courses/models.py" />
         <option value="$PROJECT_DIR$/apps/organization/models.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/templates/404.html" />
-        <option value="$PROJECT_DIR$/Lfonlion/settings.py" />
         <option value="$PROJECT_DIR$/templates/500.html" />
-        <option value="$PROJECT_DIR$/apps/users/views.py" />
         <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/apps/courses/views.py" />
         <option value="$PROJECT_DIR$/apps/organization/views.py" />
         <option value="$PROJECT_DIR$/apps/organization/urls.py" />
-        <option value="$PROJECT_DIR$/Lfonlion/urls.py" />
         <option value="$PROJECT_DIR$/static/js/deco-common.js" />
+        <option value="$PROJECT_DIR$/apps/users/views.py" />
+        <option value="$PROJECT_DIR$/apps/users/adminx.py" />
+        <option value="$PROJECT_DIR$/apps/organization/adminx.py" />
+        <option value="$PROJECT_DIR$/extra_apps/xadmin/plugins/refresh.py" />
+        <option value="$PROJECT_DIR$/Lfonlion/settings.py" />
+        <option value="$PROJECT_DIR$/Lfonlion/urls.py" />
+        <option value="$PROJECT_DIR$/apps/courses/models.py" />
+        <option value="$PROJECT_DIR$/extra_apps/xadmin/plugins/ueditor.py" />
+        <option value="$PROJECT_DIR$/templates/course-detail.html" />
+        <option value="$PROJECT_DIR$/extra_apps/xadmin/plugins/excel.py" />
+        <option value="$PROJECT_DIR$/apps/courses/adminx.py" />
+        <option value="$PROJECT_DIR$/extra_apps/xadmin/plugins/__init__.py" />
       </list>
     </option>
   </component>
@@ -186,10 +263,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="194" />
-    <option name="y" value="22" />
-    <option name="width" value="1139" />
-    <option name="height" value="684" />
+    <option name="x" value="207" />
+    <option name="y" value="45" />
+    <option name="width" value="1111" />
+    <option name="height" value="678" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -210,6 +287,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -232,13 +310,124 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Lfonlion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lfonlion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lfonlion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="extra_apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lfonlion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lfonlion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="extra_apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xadmin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lfonlion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lfonlion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="extra_apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xadmin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xadmin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lfonlion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lfonlion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="extra_apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xadmin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lfonlion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lfonlion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lfonlion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lfonlion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="courses" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -254,11 +443,11 @@
       <recent name="C:\Users\Allard\PycharmProjects\Lfonlion\apps" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Allard\PycharmProjects\Lfonlion\extra_apps\xadmin\templates\xadmin" />
+      <recent name="C:\Users\Allard\PycharmProjects\Lfonlion\extra_apps\xadmin\static\xadmin\vendor\font-awesome" />
       <recent name="C:\Users\Allard\PycharmProjects\Lfonlion\templates" />
       <recent name="C:\Users\Allard\PycharmProjects\Lfonlion\static\js" />
       <recent name="C:\Users\Allard\PycharmProjects\Lfonlion\static\css" />
-      <recent name="C:\Users\Allard\PycharmProjects\Lfonlion\static\images" />
-      <recent name="C:\Users\Allard\PycharmProjects\Lfonlion\static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -524,27 +713,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="194" y="22" width="1139" height="684" extended-state="0" />
+    <frame x="207" y="45" width="1111" height="678" extended-state="0" />
     <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28734538" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31544715" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="manage.py@Lfonlion" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6534351" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44587156" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41016334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24559778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4946565" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24950495" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08623853" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.384755" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="manage.py@Lfonlion" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6534351" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38297874" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -583,156 +772,15 @@
           <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="46" />
+      <option name="time" value="53" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/teachers-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1380">
-          <caret line="60" column="32" lean-forward="false" selection-start-line="60" selection-start-column="32" selection-end-line="60" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/teacher-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="54" column="53" lean-forward="true" selection-start-line="54" selection-start-column="53" selection-end-line="54" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/organization/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="21" column="64" lean-forward="false" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
-          <folding>
-            <element signature="e#75#84#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/deco-comment.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4282">
-          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/org-detail-course.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/course-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2783">
-          <caret line="121" column="38" lean-forward="true" selection-start-line="121" selection-start-column="38" selection-end-line="121" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/course-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="966">
-          <caret line="42" column="52" lean-forward="true" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/utils/email_send.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1081">
-          <caret line="51" column="17" lean-forward="false" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
-          <folding>
-            <element signature="e#75#100#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/course-play.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="36" lean-forward="false" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/course-video.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="24" column="90" lean-forward="true" selection-start-line="24" selection-start-column="90" selection-end-line="24" selection-end-column="90" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/users/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#75#99#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Envs/xfonline/Lib/site-packages/django/db/models/manager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="248" column="0" lean-forward="false" selection-start-line="248" selection-start-column="0" selection-end-line="248" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Envs/xfonline/Lib/site-packages/django/core/handlers/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="222" column="0" lean-forward="false" selection-start-line="222" selection-start-column="0" selection-end-line="222" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Envs/xfonline/Lib/site-packages/django/views/generic/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Envs/xfonline/Lib/site-packages/django/contrib/auth/decorators.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/org-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="99" column="11" lean-forward="false" selection-start-line="99" selection-start-column="11" selection-end-line="119" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="56" column="34" lean-forward="true" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/register.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="87" column="38" lean-forward="true" selection-start-line="87" selection-start-column="38" selection-end-line="87" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -740,7 +788,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="134">
           <caret line="65" column="71" lean-forward="true" selection-start-line="65" selection-start-column="71" selection-end-line="65" selection-end-column="71" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -748,7 +795,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -756,7 +802,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -764,7 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="52" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -772,7 +816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -780,7 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -788,7 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="9" column="56" lean-forward="false" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -796,7 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
           <caret line="9" column="52" lean-forward="false" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -804,15 +844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/users/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="58" column="9" lean-forward="false" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -828,7 +859,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="844" column="4" lean-forward="false" selection-start-line="844" selection-start-column="4" selection-end-line="844" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -836,7 +866,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="129" column="56" lean-forward="false" selection-start-line="129" selection-start-column="56" selection-end-line="129" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -844,7 +873,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -852,7 +880,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -876,36 +903,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/users/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/courses/2018/02/425229.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/users/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/courses/2018/02/425229.jpg" />
     <entry file="file://$PROJECT_DIR$/apps/operation/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -913,9 +918,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4459">
           <caret line="94" column="61" lean-forward="true" selection-start-line="94" selection-start-column="61" selection-end-line="94" selection-end-column="61" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -923,15 +925,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
           <caret line="48" column="30" lean-forward="true" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/courses/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="24" column="51" lean-forward="false" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -949,19 +942,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding>
-            <element signature="e#75#116#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lfonlion/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1196">
-          <caret line="52" column="1" lean-forward="true" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
-          <folding>
-            <element signature="e#720#761#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -969,7 +949,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-105">
           <caret line="149" column="48" lean-forward="false" selection-start-line="149" selection-start-column="34" selection-end-line="149" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -977,7 +956,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
           <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -985,10 +963,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
           <caret line="63" column="56" lean-forward="false" selection-start-line="63" selection-start-column="56" selection-end-line="63" selection-end-column="56" />
-          <folding>
-            <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#2;n#div#0;n#div#0;n#div#0;n#header#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -996,17 +970,199 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/video.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="15320" column="0" lean-forward="true" selection-start-line="15320" selection-start-column="0" selection-end-line="15320" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/org-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="63" column="54" lean-forward="false" selection-start-line="63" selection-start-column="54" selection-end-line="63" selection-end-column="54" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="58" column="9" lean-forward="false" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/static/xadmin/vendor/font-awesome/css/font-awesome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1196">
+          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/organization/adminx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Envs/xfonline/Lib/site-packages/django/views/generic/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3358">
+          <caret line="3" column="35" lean-forward="false" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python27/Lib/importlib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/courses/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/plugins/refresh.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lfonlion/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="53" column="53" lean-forward="false" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/courses/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="25" column="40" lean-forward="false" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+          <folding>
+            <element signature="e#25#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/plugins/ueditor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="18" column="37" lean-forward="false" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+          <folding>
+            <element signature="e#75#88#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lfonlion/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="56" column="22" lean-forward="true" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
+        <state relative-caret-position="184">
+          <caret line="56" column="22" lean-forward="false" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
           <folding>
             <element signature="e#322#331#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/plugins/auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="59" column="6" lean-forward="false" selection-start-line="59" selection-start-column="6" selection-end-line="59" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/adminx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="e#77#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/course-detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="897">
+          <caret line="120" column="39" lean-forward="true" selection-start-line="120" selection-start-column="39" selection-end-line="120" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/templates/xadmin/excel/model_list.top_toolbar.import.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="49" lean-forward="true" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/plugins/excel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="13" column="64" lean-forward="false" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
+          <folding>
+            <element signature="e#77#90#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/courses/adminx.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="48" column="52" lean-forward="false" selection-start-line="48" selection-start-column="52" selection-end-line="48" selection-end-column="52" />
+          <folding>
+            <element signature="e#76#89#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/plugins/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>

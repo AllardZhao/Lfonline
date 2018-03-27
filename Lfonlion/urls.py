@@ -23,12 +23,13 @@ from django.views.static import serve         # 用于处理静态文件
 
 from users.views import LogoutView, LoginView, RegisterView, ActiveUserView, ForgetPwdView, ResetView, ModifyPwdView
 from users.views import IndexView
-from Lfonlion.settings import MEDIA_ROOT, STATIC_ROOT
+from Lfonlion.settings import MEDIA_ROOT
 
 urlpatterns = [
     url(r'^xadmin/', xadmin.site.urls),                                                       # 后台管理url
     url('^$', IndexView.as_view(), name="index"),      # TemplateView.as_view(template_name="index.html")
     url('^login/$', LoginView.as_view(), name="login"),                                       # 登录url
+    # url('^login/$', LoginUnsafeView.as_view(), name="login"), # sql注入验证
     url('^logout/$', LogoutView.as_view(), name="logout"),                                     # 退出登录url
     url('^register/$', RegisterView.as_view(), name="register"),                              # 注册url
     url(r'^captcha/', include('captcha.urls')),                                               # 生成验证码
@@ -45,10 +46,12 @@ urlpatterns = [
 
     # 配置上传文件的访问处理函数
     url(r'^media/(?P<path>.*)$', serve, {"document_root": MEDIA_ROOT}),
-    url(r'^static/(?P<path>.*)$', serve, {"document_root": STATIC_ROOT}),   # DRBUG=False时需要自己设置静态路径
+    # url(r'^static/(?P<path>.*)$', serve, {"document_root": STATIC_ROOT}),   # DRBUG=False时需要自己设置静态路径
 
     # 课程相关url设置
     url(r'^users/', include('users.urls', namespace="users")),
+    # 富文本相关url
+    url(r'^ueditor/', include('DjangoUeditor.urls')),
 
 ]
 

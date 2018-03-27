@@ -2,6 +2,8 @@
 from __future__ import unicode_literals
 from datetime import datetime
 
+from DjangoUeditor.models import UEditorField
+
 from django.db import models
 from organization.models import CourseOrg, Teacher
 
@@ -16,7 +18,8 @@ class Course(models.Model):
     name = models.CharField(max_length=50, verbose_name=u"课程名")
     desc = models.CharField(max_length=300, verbose_name=u"课程描述")
     teacher = models.ForeignKey(Teacher, verbose_name=u"讲师", null=True, blank=True)
-    detail = models.TextField(verbose_name=u"课程详情")
+    detail = UEditorField(verbose_name=u"课程详情", width=600, height=300, imagePath="courses/ueditor/",
+                                         filePath="courses/ueditor/", default='')
     is_banner = models.BooleanField(default=False, verbose_name=u"是否轮播")
     degree = models.CharField(verbose_name=u"难度", choices=(("cj", u"初级"), ("zj", u"中级"), ("gj", u"高级")), max_length=2)
     learn_time = models.IntegerField(default=0, verbose_name=u"学习时长（分钟数）")
@@ -37,6 +40,12 @@ class Course(models.Model):
     def get_zj_nums(self):
         # 获取课程章节数
         return self.lesson_set.all().count()
+    get_zj_nums.short_description = "章节数"  # 列表页显示名称,（函数显示）
+
+    def go_to(self):   # 自定义HTML代码放到列表中，（显示自定义的HTML代码）
+        from django.utils.safestring import mark_safe
+        return mark_safe("<a href='http://www.imooc.com'>跳转</>")
+    go_to.short_description = "跳转到慕课网"
 
     def get_learn_user(self):
         # 获取学习课程用户
@@ -48,6 +57,13 @@ class Course(models.Model):
 
     def __unicode__(self):
         return self.name
+
+
+class BannerCourse(Course):
+    class Meta:
+        verbose_name = "轮播课程"
+        verbose_name_plural = verbose_name
+        proxy = True   # 不会再生成一张表，又具有model功能
 
 
 class Lesson (models.Model):

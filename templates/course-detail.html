@@ -116,7 +116,10 @@
                     </ul>
                 </div>
                 <div class="tab_cont tab_cont1">
+                {# 关闭自动转译显示，富文本内容 #}
+                    {% autoescape off %}
                     {{ course.detail }}
+                    {% endautoescape %}
                 </div>
 			</div>
 			<div class="right layout">
