@@ -1,5 +1,4 @@
 # Lfonline
-> 一个类imooc网站，以下是网站部署方法（文字版）
 > Lfonline 全称 Learn Friend online，是一款在线教育学习平台。
 
 #### 简介
